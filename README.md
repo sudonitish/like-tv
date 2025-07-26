@@ -12,11 +12,23 @@ Like-TV is a project designed for educational purposes. This repository contains
    ```sh
    git clone https://github.com/sudonitish/like-tv.git
    ```
-2. Install dependencies:
+## Getting Started
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/sudonitish/like-tv.git
+   ```
+2. **Install dependencies:**
    ```sh
    npm install
    ```
-3. Start the application:
+3. **Configure environment:**
+   - Create a `.env` file in the root directory if needed for your database or other secrets.
+   - Example variables:
+     ```env
+     DB_URI=mongodb://localhost:27017/like-tv
+     PORT=3000
+     ```
+4. **Start the application:**
    ```sh
    npm start
    ```
@@ -29,17 +41,17 @@ Like-TV is a project designed for educational purposes. This repository contains
 - `services/` - Business logic and services
 - `util/` - Utility functions and shared code
 
+---
+
 ## License
 
-This project is licensed under the [Educational Community License, Version 2.0 (ECL-2.0)](https://opensource.org/license/ecl-2-0/).
+This project is licensed under the Educational Community License, Version 2.0 (ECL-2.0). See the [LICENSE](./LICENSE) file for full details.
 
-```
-Educational Community License, Version 2.0 (ECL-2.0)
+**Summary:**
+- Free for educational and non-commercial use only
+- Redistributions must retain the copyright and license
+- No warranty is provided; use at your own risk
 
-You may use, copy, modify, and distribute this software and its documentation for educational, research, and non-commercial purposes, subject to the terms and conditions of the ECL-2.0.
+Thank you for exploring and using Like-TV!
 
-See the full license text at: https://opensource.org/license/ecl-2-0/
-```
 
-## Disclaimer
-This code is provided for educational use only.
